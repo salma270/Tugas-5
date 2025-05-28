@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualisasi Artikel Flo</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Visualisasi Artikel Flo Health</h1>
+    
+    {% for graph in graphs %}
+        <div style="margin-bottom: 50px;">
+            {{ graph|safe }}
+        </div>
+    {% endfor %}
+</body>
+</html>
